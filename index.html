@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <!-- 
+    Inspired by: https://uidesigndaily.com/posts/figma-search-categories-day-1552
+    -->
+    <div class="search-component">
+      <label class="labels" for="itemSearch">Search for your next item: </label>
+      <div class="search-bar">
+        <input
+          class="search-input"
+          type="text"
+          name="itemSearch"
+          id="itemSearch"
+          placeholder="Search for items..."
+        />
+        <button class="search-btn">
+          <i class="fa fa-search fa-fw" aria-hidden="true"></i> Search
+        </button>
+      </div>
+      <p class="labels">Filter by category:</p>
+      <div class="search-categories">
+        <a class="category-item" id="category1" href="#">
+          <i class="fa fa-bath fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category1">Bathroom</label>
+        </a>
+        <a class="category-item" id="category2" href="#">
+          <i class="fa fa-book fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category2">Books</label>
+        </a>
+        <a class="category-item" id="category3" href="#">
+          <i class="fa fa-pencil fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category3">Office</label>
+        </a>
+        <a class="category-item" id="category4" href="#">
+          <i class="fa fa-camera fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category4">Photography</label>
+        </a>
+        <a class="category-item" id="category5" href="#">
+          <i class="fa fa-microchip fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category5">Electronics</label>
+        </a>
+        <a class="category-item" id="category6" href="#">
+          <i class="fa fa-bicycle fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category6">Bicycles</label>
+        </a>
+        <a class="category-item" id="category7" href="#">
+          <i class="fa fa-laptop fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category7">Computers</label>
+        </a>
+        <a class="category-item" id="category8" href="#">
+          <i class="fa fa-gamepad fa-2x category-icon" aria-hidden="true"></i>
+          <br />
+          <label for="category8">Games</label>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
